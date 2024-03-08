@@ -1,0 +1,98 @@
+<!--index.wxml-->
+
+<!-- 轮播图 -->
+<view class="swiper">
+  <swiper autoplay="ture" interval="2000" indicator-dots="ture" indicator-color="#00AEEC" circular="ture">
+    <swiper-item>
+      1
+      <image src="../../images/user.png" mode="aspectFill" show-menu-by-longpress="" />
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/kuaisugaoxiao.png" mode="aspectFill" show-menu-by-longpress="" />
+    </swiper-item>
+    <swiper-item>
+      3
+      <image src="../../images/dingdan.png" mode="aspectFill" show-menu-by-longpress="" />
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 公司信息 -->
+<view class="info">
+  <text user-select space="ensp">这里面</text>
+  <text user-select space="ensp">不知道</text>
+  <text user-select space="ensp">该写啥</text>
+  <text user-select space="ensp">啊啊啊</text>
+</view>
+
+<!-- 商品导航 -->
+<view class="goods_nav">
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../images/kuaisugaoxiao.png" mode="" />
+      <text>飞机</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../images/kuaisugaoxiao.png" mode="" />
+      <text>智旅</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../images/kuaisugaoxiao.png" mode="" />
+      <text>飞机</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../images/kuaisugaoxiao.png" mode="" />
+      <text>飞机</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../images/kuaisugaoxiao.png" mode="" />
+      <text>飞机</text>
+    </navigator>
+  </view>
+
+</view>
+
+<!-- 推荐商品 -->
+<view class="goods_hot">
+<scroll-view class="scroll-x" scroll-x>
+
+  <view>
+    <view class="good-item">
+      <image src="../../images/kuaisugaoxiao.png"  />
+      <text>鲜花</text>
+      <text>88</text>
+    </view>
+    </view>
+
+  <view>
+    <view class="good-item">
+      <image src="../../images/kuaisugaoxiao.png"  />
+      <text>梅花</text>
+      <text>78</text>
+    </view>
+  </view>
+
+  <view>
+    <view class="good-item">
+      <image src="../../images/kuaisugaoxiao.png"  />
+      <text>梅花</text>
+      <text>78</text>
+    </view>
+  </view>
+    
+</scroll-view>
+  
+  
+</view>

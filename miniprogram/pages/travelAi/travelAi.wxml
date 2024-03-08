@@ -1,0 +1,9 @@
+<!--pages/travelAi/travelAi.wxml-->
+<text>pages/travelAi/travelAi.wxml</text>
+
+<view>
+    <map>
+    
+    </map>
+</view>
+  
